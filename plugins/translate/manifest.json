@@ -1,0 +1,14 @@
+{
+    "name": "Translate Plugin",
+    "description": "Translate messages using Google Translate API.",
+    "authors": [
+        {
+            "name": "FyukMdaa",
+            "id": "YOUR_ID_HERE"
+        }
+    ],
+    "main": "src/index.ts",
+    "vendetta": {
+        "icon": "ic_translate"
+    }
+}
