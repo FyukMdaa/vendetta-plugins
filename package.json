@@ -15,12 +15,16 @@
 		"rollup-plugin-esbuild": "^5.0.0",
 		"vendetta-types": "latest"
 	},
-	"pnpm": {
+"pnpm": {
 		"peerDependencyRules": {
 			"ignoreMissing": [
 				"react",
 				"react-native"
 			]
-		}
+		},
+		"onlyBuiltDependencies": [
+			"@swc/core",
+			"esbuild"
+		]
 	}
 }
